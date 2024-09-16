@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Alverata";
+  src: url("/fonts/Alverata.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #0097ce14;
+  --foreground: #171717;
+  --primary: #270089;
+  --secondary: #0097ce;
+  --textBlack1: #000000;
+  --textBlack2: #212529;
+  --textWhite: #155426;
+  --textGrey: #6c757d;
+  --placeholderGrey: #6c757d;
+  --error: #eb5757;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: var(--background);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Alverata, Graphik;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Add custom styles for scroll-based navbar hiding */
+#navbar {
+  transform: translateY(0);
+}
+
+#navbar.-translate-y-full {
+  transform: translateY(-100%);
+}
+
+@media screen and (max-width: 700px) {
+  .dashboard-image {
+    display: none;
+  }
+}
