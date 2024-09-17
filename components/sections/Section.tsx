@@ -22,7 +22,7 @@ const Section: React.FC = () => {
                   <p className="mb-2 text-sm text-black font-graphik tracking-wide">
                     Oboedio simplifies compliance by offering a secure,
                     easy-to-use platform for managing and completing
-                    assessments.Oboedio simplifies compliance by offering a
+                    assessments. Oboedio simplifies compliance by offering a
                     secure, easy-to-use platform for managing and completing
                     assessments.
                   </p>
