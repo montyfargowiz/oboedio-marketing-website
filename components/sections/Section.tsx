@@ -36,8 +36,8 @@ const Section: React.FC = () => {
                   <Image
                     src="/images/logo-2.png"
                     alt="Icon"
-                    width={300}
-                    height={300}
+                    width={600}
+                    height={600}
                     className="m-2 rounded-full w-full"
                   />
                 </div>

@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Section2() {
   return (
-    <section className="mx-6 px-4 pb-8">
-      <div className="gap-4">
-        <div className="flex flex-colum md:grid md:grid-cols-12 text-black p-8 bg-black rounded-3xl">
+    <section className="mx-6 px-2 pb-8">
+      <div>
+        <div className="flex flex-colum pl-20 gap-12 md:grid md:grid-cols-12 text-black p-8 bg-black rounded-3xl">
           <Image
             src="/images/dashboard.png"
             alt="Dashboard"
@@ -13,12 +13,12 @@ export default function Section2() {
             width={500}
             className="md:col-span-8 w-full dashboard-image"
           />
-          <div className="flex md:col-span-4 flex-wrap justify-left items-center h-full w-full">
+          <div className="flex md:col-span-4 flex-wrap justify-left align-center items-center h-full w-full">
             <button
               type="button"
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              className="font-thin text-md px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 py-4 m-3 flex items-center inline-block rounded-full outline outline-1 outline-primary px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+              className="font-thin pr-12 text-md my-3 px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 flex items-center inline-block rounded-full outline outline-1 outline-primary px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
               <Image
                 src="/icons/book.png"
@@ -33,7 +33,7 @@ export default function Section2() {
               type="button"
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              className="font-thin text-md px-10 w-fit h-fit  tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 py-4 m-3 flex items-center inline-block rounded-full outline outline-1 px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+              className="font-thin pr-12 text-md my-3 px-10 w-fit h-fit  tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 flex items-center inline-block rounded-full outline outline-1 px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
               <Image
                 src="/icons/transfer.png"
@@ -48,7 +48,7 @@ export default function Section2() {
               type="button"
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              className="font-thin text-md px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 py-4 m-3 flex items-center inline-block rounded-full outline outline-1 outline-secondary px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+              className="font-thin pr-12 text-md my-3 px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 flex items-center inline-block rounded-full outline outline-1 outline-secondary px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
               <Image
                 src="/icons/voice-message.png"
@@ -63,7 +63,7 @@ export default function Section2() {
               type="button"
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              className="font-thin text-md px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 py-4 m-3 flex items-center inline-block rounded-full outline outline-1 px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+              className="font-thin pr-12 text-md my-3 px-10 w-fit h-fit tracking-widest hover:outline-blue-300 hover:text-blue-300 px-5 flex items-center inline-block rounded-full outline outline-1 px-3 py-2.5 text-xs font-medium leading-normal text-neutral-50 shadow-dark-3 transition duration-150 ease-in-out hover:bg-black hover:shadow-white-10 hover:shadow-xl focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
               <Image
                 src="/icons/digital-marketing.png"

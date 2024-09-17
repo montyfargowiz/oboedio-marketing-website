@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Section3() {
   return (
-    <div className="flex flex-wrap justify-center align-center">
+    <div className="flex flex-wrap justify-center align-center p-8">
       <h2 className="text-primary font-bold uppercase text-3xl">Products</h2>
       <div className="grid grid-cols-12">
-        <div className="col-span-6 m-8 rounded-3xl shadow-lg bg-gray-100 p-10 m-auto">
+        <div className=" m-8 col-span-6 rounded-3xl shadow-lg bg-gray-100 p-10 m-auto">
           <h3 className="text-5xl text-textBlack2  text-left tracking-wider">
             Effortless Compliance Management
           </h3>
